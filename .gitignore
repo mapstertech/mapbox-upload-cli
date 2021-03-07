@@ -1,0 +1,5 @@
+node_modules
+.DS_*
+.env
+.vscode
+.idea

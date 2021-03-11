@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node -r esm src/lib/upload.js",
+    "start": "node -r esm src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,6 +13,8 @@
   "dependencies": {
     "aws-sdk": "2.858.0",
     "axios": "0.21.1",
-    "esm": "3.2.25"
+    "esm": "3.2.25",
+    "inquirer": "8.0.0",
+    "inquirer-file-tree-selection-prompt": "1.0.7"
   }
 }

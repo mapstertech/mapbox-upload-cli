@@ -9,7 +9,7 @@ function cli() {
     .prompt([
       { type: "input", name: "mapboxUsername", message: "Mapbox Username" },
       { type: "input", name: "mapboxToken", message: "Mapbox Token" },
-      { type: "file-tree-selection", name: "filePath", message: "Select your Tileset File (.tiff)" },
+      { type: "file-tree-selection", name: "filePath", message: "Select your Tileset File (.tiff or other file type)" },
       { type: "input", name: "tilesetName", message: "Tileset Name" },
     ])
     .then(async (answers) => {
